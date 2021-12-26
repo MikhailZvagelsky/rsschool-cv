@@ -2,11 +2,11 @@
 
 ---
 
-### Contact information
+### Contact Information
 
 **Phone:** 5327672<br>
 **E-mail:** mikhailzvagelsky@gmail.com<br>
-**discord:** Mikhail Zvagelsky<br>
+**Discord:** Mikhail Zvagelsky<br>
 
 ---
 
@@ -24,7 +24,7 @@ I like music, sea bathing, and walking.<br>
 
 ---
 
-### Code example
+### Code Example
 
 ```javascript
 function multiply(a, b){
