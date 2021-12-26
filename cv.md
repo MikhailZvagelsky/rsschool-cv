@@ -1,4 +1,4 @@
-# Mikhail Zvagelsky
+# ![avatar](assets/winter_trees.png) Mikhail Zvagelsky
 
 ---
 
