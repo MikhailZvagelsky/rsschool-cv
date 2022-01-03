@@ -1,91 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <h1>
-        <img alt="avatar" src="assets/winter_trees.png">
-        Mikhail Zvagelsky
-    </h1>
-    <hr>
-
-    <h2>
-        Contact Information
-    </h2>
-
-<strong>Phone:</strong> 5327672<br>
-<strong>E-mail:</strong> mikhailzvagelsky@gmail.com<br>
-<strong>Discord:</strong> Mikhail Zvagelsky<br>
-
-<hr>
-
-<h2>
-    About Myself
-</h2>
-
-I like music, sea bathing, and walking.<br>
-
-<hr>
-
-<h2>
-    Skills
-</h2>
-
-<ol>
-    <li>
-        able to prepare simple food
-    </li>
-    <li>
-        draw in zentangle style
-    </li>
-    <li>
-        know many songs
-    </li>
-</ol>
-
-<hr>
-
-<h2>
-    Code Example
-</h2>
-
-<pre>
-    function multiply(a, b){
-        return a * b;
-    }
-</pre>
-
-<hr>
-
-<h2>
-    Education
-</h2>
-
-<ol>
-    <li>
-        University course of topology
-    </li>
-    <li>
-        RS Schools «JavaScript/Front-end. Stage 0» (in progress)        
-    </li>
-</ol>
-
-<hr>
-
-<h2>
-    Languages
-</h2>
-
-<ol>
-    <li>
-        Read English with dictionary      
-    </li>
-</ol>
-  
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <main>
+            <section id="about" class="main-section">
+                <img id="avatar" alt="avatar" src="assets/winter_trees.png">
+                <h1>Mikhail Zvagelsky</h1>
+                I like music, sea swimming, thinking, sleeping, eating, talking, joking, walking.
+                Laborum pariatur eiusmod exercitation laboris. Reprehenderit cillum anim minim tempor irure velit nostrud exercitation occaecat quis proident laboris fugiat adipisicing. Ex veniam enim laborum nulla mollit. Velit duis aute consequat nostrud non amet aute non amet sunt irure. Quis esse in dolor ullamco.
+                Quis aute esse velit elit magna sint. Enim mollit ea ad laborum proident laboris veniam do adipisicing reprehenderit excepteur labore. Ullamco excepteur dolor dolor ea ad. Dolor dolore excepteur amet esse. Voluptate nostrud occaecat anim sint aliquip eu et pariatur nulla officia sunt sint consequat cillum. Ex cillum commodo mollit laboris velit eu ex amet excepteur.
+                Tempor excepteur veniam qui voluptate. Ut laborum ut duis non ipsum ad. Dolore nisi ut proident Lorem magna minim proident nisi consectetur proident. Deserunt dolore esse commodo velit proident. Laboris consequat esse laboris nulla minim dolore cillum quis ipsum sunt sint amet.
+            </section>
+    
+            <section id="skills" class="main-section">
+                <h2>
+                    Skills
+                </h2>
+                <ol>
+                    <li>able to prepare simple food</li>
+                    <li>draw in zentangle style</li>
+                    <li>know many songs</li>
+                    <li>can cut claws for cats</li>
+                    <li>know a few card tricks</li>
+                </ol>
+            </section>
+    
+            <section id="code" class="main-section">
+                <h2>
+                    Code Example
+                </h2>
+                <pre>
+                    <code>
+function multiply(a, b){
+    return a * b;
+}
+                    </code>
+                </pre>
+            </section>
+    
+            <section id="education" class="main-section">
+                <h2>
+                    Education
+                </h2>
+                <ol>
+                    <li>
+                        University course of topology
+                    </li>
+                    <li>
+                        RS Schools «JavaScript/Front-end. Stage 0» (in progress)
+                    </li>
+                </ol>
+                <h2>
+                    Languages
+                </h2>
+                <ol>
+                    <li>Russian - native speaker</li>
+                    <li>Mathematics - fluent</li>
+                    <li>English - with dictionary</li>
+                </ol>
+            </section>
+    
+        </main>
+        <footer>
+            <section id="contacts" class="footer-section">
+                <ul class="contacts-list">
+                    <li id="email">
+                        <img src="assets/email.svg" alt="email icon" class="contacts-icon">
+                        <a href="mailto:mikhailzvagelsky@gmail.com" title="email">mikhailzvagelsky@gmail.com</a>
+                    </li>
+                    <li id="discord">
+                        <img src="assets/discord.svg" alt="discord icon" class="contacts-icon">
+                        Mikhail Zvagelsky#2790
+                    </li>
+                </ul>
+            </section>
+            <section id="github" class="footer-section">
+                <a href="https://github.com/MikhailZvagelsky" title="github">
+                    <img src="assets/octocat.png" alt="github icon" class="footer-icon">
+                </a>
+            </section>
+            <section id="rs-school" class="footer-section">
+                <a href="https://rs.school/js/" title="rs-school">
+                    <img src="assets/rs_school_js.svg" alt="rss-school icon" class="footer-icon">
+                </a>
+                2021
+            </section>
+        </footer>
+    </div>
 </body>
 </html>
